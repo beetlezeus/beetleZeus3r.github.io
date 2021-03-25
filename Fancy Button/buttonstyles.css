@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.getin {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1538291323976-37dcaafccb12?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+    background-size: cover;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background: none;
+    border: 5px solid rgb(122, 122, 92);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1.5em 2em;
+}
+
+button:hover {
+    border-color: rgb(255, 255, 214);
+    background-color: rgba(255, 0, 0, 0.5);
+    color: rgb(90, 6, 6);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1.5em 2em;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em 0em rgb(22, 22, 19);
+    cursor: pointer;
+    border-radius: 35%;
+    transition: 0.25s;
+}
+
+button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button a:hover {
+    color: rgb(90, 6, 6);
+    text-decoration: none;
+}
